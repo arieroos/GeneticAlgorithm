@@ -53,8 +53,7 @@ namespace GeneticAlgorithm
             double maxMutationRate = 100,
             double mutationAdj = 10,
             double minMutationRate = 10,
-            int resetCount = 40,
-            double[] rotations = null
+            int resetCount = 40
         )
         {
             _mutate = mutate;
